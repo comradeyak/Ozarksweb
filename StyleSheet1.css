@@ -1,0 +1,62 @@
+body {
+  
+}
+.container {
+    padding: 2px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.headerPad {
+border: 1px;
+width: 80%;
+height:50px;
+border:dashed 1px;
+}
+.middle {
+  align-content:center;
+}
+.btnTL {
+    background-image: url('Images/TL.jpg');
+    background-size:300px
+}
+.btnTR {
+    background-image: url('Images/TR.jpg');
+    background-size: 300px;
+}
+.btnBL {
+    background-image: url('Images/BL.jpg');
+    background-size: 300px;
+}
+.btnBR {
+    background-image: url('Images/BR.jpg');
+    background-size: 300px;
+}
+.leftDiv {
+    background-color: lightgreen;
+  border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    margin:auto;
+}
+.RightDiv {
+    background-color: #0094ff;
+  border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    margin:auto;
+}
+.BleftDiv {
+    background-color: #ffe461;
+  border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    margin:auto;
+}
+.BrightDiv {
+    background-color: lightpink;
+  border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    margin:auto;
+}
