@@ -1,5 +1,8 @@
 body {
-  
+}
+.emptybox {
+    height: 10px;
+    width: 10px;
 }
 .container {
     padding: 2px;
@@ -7,56 +10,116 @@ body {
     width: 80%;
     text-align: center;
 }
-.headerPad {
-border: 1px;
-width: 80%;
-height:50px;
-border:dashed 1px;
+.header {
+    height: 50px;
 }
-.middle {
-  align-content:center;
-}
+
 .btnTL {
+    height: 300px;
+    width: 300px;
+    z-index: -1;
     background-image: url('Images/TL.jpg');
-    background-size:300px
+    background-size: 300px;
 }
+
 .btnTR {
+    height: 300px;
+    width: 300px;
+    z-index: -1;
     background-image: url('Images/TR.jpg');
     background-size: 300px;
 }
+
 .btnBL {
+    height: 300px;
+    width: 300px;
+    z-index: -1;
     background-image: url('Images/BL.jpg');
     background-size: 300px;
 }
+
 .btnBR {
+    height: 300px;
+    width: 300px;
+    z-index: -1;
     background-image: url('Images/BR.jpg');
     background-size: 300px;
 }
+
 .leftDiv {
     background-color: lightgreen;
-  border-radius: 15px;
-    height: 200px;
-    width: 200px;
-    margin:auto;
+    border-radius: 15px;
+    z-index: 1;
+    height: 300px;
+    width: 300px;
+    opacity: 0.0;
+    -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2s;
 }
+
+    .leftDiv:hover {
+        width: 300px;
+        height: 300px;
+        opacity: 1;
+        z-index: 1;
+        -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+        transition: opacity 2s;
+    }
+
 .RightDiv {
     background-color: #0094ff;
-  border-radius: 15px;
-    height: 200px;
-    width: 200px;
-    margin:auto;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    opacity: 0.0;
+    -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2s;
 }
+
+    .RightDiv:hover {
+        width: 300px;
+        height: 300px;
+        opacity: 1;
+        z-index: 1;
+        -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+        transition: opacity 2s;
+    }
+
 .BleftDiv {
     background-color: #ffe461;
-  border-radius: 15px;
-    height: 200px;
-    width: 200px;
-    margin:auto;
+    border-radius: 15px;
+   height: 300px;
+    width: 300px;
+    opacity: 0.0;
+    -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2s;
 }
+
+    .BleftDiv:hover {
+        width: 300px;
+        height: 300px;
+        opacity: 1;
+        z-index: 1;
+        -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+        transition: opacity 2s;
+    }
+
+
 .BrightDiv {
     background-color: lightpink;
-  border-radius: 15px;
-    height: 200px;
-    width: 200px;
-    margin:auto;
+    border-radius: 15px;
+  height: 300px;
+    width: 300px;
+    opacity: 0.0;
+    -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2s;
 }
+
+    .BrightDiv:hover {
+        width: 300px;
+        height: 300px;
+        opacity: 1;
+        z-index: 1;
+        -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+        transition: opacity 2s;
+    }
